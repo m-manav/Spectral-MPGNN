@@ -102,3 +102,10 @@ anim_path = PATH_ROOT/Path(args.postprocess_dir)
 anim_path.mkdir(parents = True, exist_ok = True)
 anim_path = anim_path/Path(animation_name)
 eval_data_loader = visualize(dataset_vis, spc_test_dataset, model, anim_path, args, stats_list, skip = 1)
+
+def main():
+    print("Hello from spectral-mpgnn!")
+
+
+if __name__ == "__main__":
+    main()
