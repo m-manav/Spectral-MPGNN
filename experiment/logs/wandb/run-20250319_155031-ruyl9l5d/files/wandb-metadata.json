@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-11-10.0.22631-SP0",
+  "python":  "CPython 3.12.9",
+  "startedAt":  "2025-03-19T19:50:31.712604Z",
+  "program":  "D:\\Projects\\SpectralMPGNN\\main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/m-manav/Spectral-MPGNN.git",
+    "commit":  "9b576665f7e0085c34633e9eb4e77fe0fa5ac118"
+  },
+  "email":  "manav132@gmail.com",
+  "root":  "D:\\Projects\\SpectralMPGNN\\experiment\\logs",
+  "host":  "LAPTOP-3AGKBN92",
+  "executable":  "D:\\Projects\\SpectralMPGNN\\.venv\\Scripts\\python.exe",
+  "codePathLocal":  "main.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "115063386112",
+      "used":  "82398015488"
+    }
+  },
+  "memory":  {
+    "total":  "8425017344"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

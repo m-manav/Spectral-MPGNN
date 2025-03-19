@@ -1,2 +1,0 @@
-from pl_general_model import pl_general_model
-from model import Spectral_MP_GNN
