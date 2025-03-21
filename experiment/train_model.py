@@ -14,8 +14,8 @@ def train_model():
     figures_dir = PATH_ROOT / Path("outputs/plots")
     figures_dir.mkdir(exist_ok=True)
 
-    conf = OmegaConf.load(PATH_ROOT / Path("config/config.yaml"))
-    conf["dirs"] = {
+    config = OmegaConf.load(PATH_ROOT / Path("config/config.yaml"))
+    config["dirs"] = {
         "PATH_ROOT": PATH_ROOT,
         "Experiment_dir": Experiment_dir,
         "log_dir": log_dir,
@@ -23,8 +23,8 @@ def train_model():
         "figures_dir": figures_dir,
     }
 
-    L.seed_everything(conf.model.seed)
+    L.seed_everything(config.model.seed)
 
     from spectralMPGNN.training.training import train
 
-    train(config=conf)
+    train(config=config)
