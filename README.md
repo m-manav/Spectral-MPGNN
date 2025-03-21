@@ -11,7 +11,7 @@ git clone git@github.com:m-manav/Spectral-MPGNN.git
 cd Spectral-MPGNN
 ```
 
-Install uv. Then create a virtual environment using the lock file by running the following command:
+Install uv. Then create a virtual environment using the lock file by running the following command in a terminal:
 
 ```bash
 uv sync
